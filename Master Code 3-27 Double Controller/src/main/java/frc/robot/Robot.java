@@ -241,7 +241,7 @@ public class Robot extends TimedRobot {
     
 
     // Joystick code
-    m_Drivetrain.drive.arcadeDrive(m_OI.j.getZ() * .7, -m_OI.j.getY());
+    m_Drivetrain.drive.arcadeDrive(m_OI.j.getZ() * .6, -m_OI.j.getY());
     
     CommandScheduler.getInstance().run();
   }
